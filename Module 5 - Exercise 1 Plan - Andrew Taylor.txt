@@ -1,0 +1,13 @@
+START GAME
+ Initialize players and board
+ LOOP: While questions remain
+     Show board
+     Player selects question
+     Ask question & start timer
+     IF response is correct and in question form
+         Award points
+     ELSE
+         Deduct points or pass
+     Mark question as used
+ Display final scores
+ END
